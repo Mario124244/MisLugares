@@ -13,6 +13,14 @@ public class Lugar {
     private long fecha;
     private float valoracion;
 
+    public TipoLugar getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(TipoLugar tipo) {
+        this.tipo = tipo;
+    }
+
     public String getDireccion() {
         return direccion;
     }

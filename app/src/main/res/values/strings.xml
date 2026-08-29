@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Mis Lugares Java</string>
+
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+    <string name="menu_mapa">Mapa</string>
+    <string name="menu_agregar">Agregar lugar</string>
+
+    <!-- Mapa -->
+    <string name="hint_buscar">BUSCAR</string>
+    <string name="chip_lugares">LUGARES</string>
+    <string name="chip_restaurantes">RESTAURANTES</string>
+    <string name="chip_compras">COMPRAS</string>
+    <string name="chip_farmacias">FARMACIAS</string>
+    <string name="fab_agregar">Agregar lugar</string>
+    <string name="permiso_ubicacion_denegado">Permiso de ubicación denegado</string>
+
+    <!-- Agregar lugar -->
+    <string name="titulo_agregar_lugar">AGREGAR LUGAR</string>
+    <string name="hint_nombre">NOMBRE</string>
+    <string name="hint_telefono">TELEFONO</string>
+    <string name="hint_direccion">DIRECCION</string>
+    <string name="hint_descripcion">DESCRIPCION</string>
+    <string name="accion_guardar">GUARDAR</string>
+    <string name="pendiente_guardar">Pendiente: guardar en el repositorio</string>
+
+    <!-- Detalle -->
+    <string name="accion_cerrar">CERRAR</string>
+    <string name="accion_navegar">NAVEGAR</string>
 </resources>
