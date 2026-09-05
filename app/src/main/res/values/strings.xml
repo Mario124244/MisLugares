@@ -1,31 +1,29 @@
 <resources>
-    <string name="app_name">Mis Lugares Java</string>
+    <string name="app_name">GeoPuntos</string>
 
-    <!-- Navigation drawer -->
-    <string name="navigation_drawer_open">Abrir menú</string>
-    <string name="navigation_drawer_close">Cerrar menú</string>
-    <string name="menu_mapa">Mapa</string>
-    <string name="menu_agregar">Agregar lugar</string>
-
-    <!-- Mapa -->
-    <string name="hint_buscar">BUSCAR</string>
-    <string name="chip_lugares">LUGARES</string>
-    <string name="chip_restaurantes">RESTAURANTES</string>
-    <string name="chip_compras">COMPRAS</string>
-    <string name="chip_farmacias">FARMACIAS</string>
-    <string name="fab_agregar">Agregar lugar</string>
-    <string name="permiso_ubicacion_denegado">Permiso de ubicación denegado</string>
-
-    <!-- Agregar lugar -->
-    <string name="titulo_agregar_lugar">AGREGAR LUGAR</string>
-    <string name="hint_nombre">NOMBRE</string>
-    <string name="hint_telefono">TELEFONO</string>
-    <string name="hint_direccion">DIRECCION</string>
-    <string name="hint_descripcion">DESCRIPCION</string>
-    <string name="accion_guardar">GUARDAR</string>
-    <string name="pendiente_guardar">Pendiente: guardar en el repositorio</string>
-
-    <!-- Detalle -->
-    <string name="accion_cerrar">CERRAR</string>
-    <string name="accion_navegar">NAVEGAR</string>
+    <string name="search_placeholder">Buscar un lugar</string>
+    <string name="how_to_get_there">Como llegar</string>
+    <string name="save">Guardar</string>
+    <string name="share">Compartir</string>
+    <string name="saved_points_title">Puntos guardados</string>
+    <string name="all_categories">Todas</string>
+    <string name="new_category">Nueva categoria</string>
+    <string name="category_name_hint">Nombre de la categoria</string>
+    <string name="create">Crear</string>
+    <string name="cancel">Cancelar</string>
+    <string name="location_permission_rationale">GeoPuntos necesita acceso a tu ubicacion para mostrar tu posicion en el mapa y calcular rutas.</string>
+    <string name="grant_permission">Conceder permiso</string>
+    <string name="map_tab">Mapa</string>
+    <string name="saved_tab">Guardados</string>
+    <string name="save_point_title">Guardar punto</string>
+    <string name="point_name_hint">Nombre</string>
+    <string name="category_casa">Casa</string>
+    <string name="category_trabajo">Trabajo</string>
+    <string name="category_favoritos">Favoritos</string>
+    <string name="category_restaurantes">Restaurantes</string>
+    <string name="no_saved_points">Aun no tienes puntos guardados</string>
+    <string name="switch_to_dark">Cambiar a modo noche</string>
+    <string name="switch_to_light">Cambiar a modo dia</string>
+    <string name="toggle_language">Cambiar idioma</string>
+    <string name="route_error">No se pudo calcular la ruta</string>
 </resources>

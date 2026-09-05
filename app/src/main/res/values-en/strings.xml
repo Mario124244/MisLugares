@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GeoPuntos</string>
+
+    <string name="search_placeholder">Search a place</string>
+    <string name="how_to_get_there">Directions</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="saved_points_title">Saved places</string>
+    <string name="all_categories">All</string>
+    <string name="new_category">New category</string>
+    <string name="category_name_hint">Category name</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="location_permission_rationale">GeoPuntos needs access to your location to show your position on the map and calculate routes.</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="map_tab">Map</string>
+    <string name="saved_tab">Saved</string>
+    <string name="save_point_title">Save place</string>
+    <string name="point_name_hint">Name</string>
+    <string name="category_casa">Home</string>
+    <string name="category_trabajo">Work</string>
+    <string name="category_favoritos">Favorites</string>
+    <string name="category_restaurantes">Restaurants</string>
+    <string name="no_saved_points">You have no saved places yet</string>
+    <string name="switch_to_dark">Switch to night mode</string>
+    <string name="switch_to_light">Switch to day mode</string>
+    <string name="toggle_language">Switch language</string>
+    <string name="route_error">Could not calculate the route</string>
+</resources>
