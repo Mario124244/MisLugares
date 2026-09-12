@@ -23,8 +23,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.maps.android.compose.GoogleMap
 import com.google.maps.android.compose.MapProperties
@@ -33,14 +35,17 @@ import com.google.maps.android.compose.Marker
 import com.google.maps.android.compose.Polyline
 import com.google.maps.android.compose.rememberCameraPositionState
 import com.google.maps.android.compose.rememberMarkerState
+import com.tuapp.maps.BuildConfig
 import com.tuapp.maps.R
 import com.tuapp.maps.data.model.PlaceResult
+import com.tuapp.maps.ui.components.MonterreyMapFallback
 import com.tuapp.maps.ui.components.PlaceBottomSheet
 import com.tuapp.maps.ui.components.PlaceSearchBar
 import com.tuapp.maps.viewmodel.MapViewModel
 import kotlinx.coroutines.launch
 
-private val DEFAULT_LOCATION = LatLng(4.710989, -74.072092) // fallback: Bogota
+// Ubicación por defecto: Monterrey, N.L., México (Macroplaza / Centro)
+private val DEFAULT_LOCATION = LatLng(25.6866, -100.3161)
 
 @Composable
 fun MapScreen(
@@ -88,16 +93,55 @@ fun MapScreen(
         }
     }
 
+    val isMapsApiKeyPlaceholder = BuildConfig.MAPS_API_KEY.isBlank() ||
+            BuildConfig.MAPS_API_KEY == "TU_MAPS_API_KEY_AQUI"
+
+    // Si tenemos API Key real, inicializamos el CameraPositionState para Google Map
     val cameraPositionState = rememberCameraPositionState {
-        position = CameraPosition.fromLatLngZoom(DEFAULT_LOCATION, 12f)
+        position = CameraPosition.fromLatLngZoom(DEFAULT_LOCATION, 13f)
     }
 
-    LaunchedEffect(uiState.userLocation) {
-        uiState.userLocation?.let { location ->
-            coroutineScope.launch {
-                cameraPositionState.animate(
-                    com.google.android.gms.maps.CameraUpdateFactory.newLatLngZoom(location, 15f)
-                )
+    if (!isMapsApiKeyPlaceholder) {
+        // Mueve la cámara cuando se detecta la ubicación del usuario (si no hay lugar seleccionado)
+        LaunchedEffect(uiState.userLocation) {
+            val userLoc = uiState.userLocation
+            if (userLoc != null && uiState.selectedPlace == null) {
+                coroutineScope.launch {
+                    cameraPositionState.animate(
+                        CameraUpdateFactory.newLatLngZoom(userLoc, 15f)
+                    )
+                }
+            }
+        }
+
+        // Mueve automáticamente la cámara al lugar seleccionado (por ejemplo, desde la pantalla de Monterrey o la búsqueda)
+        LaunchedEffect(uiState.selectedPlace) {
+            uiState.selectedPlace?.let { place ->
+                coroutineScope.launch {
+                    cameraPositionState.animate(
+                        CameraUpdateFactory.newLatLngZoom(place.latLng, 15f)
+                    )
+                }
+            }
+        }
+
+        // Ajusta el encuadre de la cámara para mostrar la ruta completa cuando se calcula
+        LaunchedEffect(uiState.route) {
+            val route = uiState.route
+            if (route != null && route.points.isNotEmpty()) {
+                val builder = LatLngBounds.builder()
+                route.points.forEach { builder.include(it) }
+                coroutineScope.launch {
+                    try {
+                        cameraPositionState.animate(
+                            CameraUpdateFactory.newLatLngBounds(builder.build(), 120)
+                        )
+                    } catch (_: Exception) {
+                        cameraPositionState.animate(
+                            CameraUpdateFactory.newLatLngZoom(route.points.first(), 14f)
+                        )
+                    }
+                }
             }
         }
     }
@@ -106,7 +150,11 @@ fun MapScreen(
         MapProperties(
             isMyLocationEnabled = hasLocationPermission,
             mapStyleOptions = if (isDarkTheme) {
-                MapStyleOptions.loadRawResourceStyle(context, R.raw.map_style_night)
+                try {
+                    MapStyleOptions.loadRawResourceStyle(context, R.raw.map_style_night)
+                } catch (e: Exception) {
+                    null
+                }
             } else {
                 null
             }
@@ -114,19 +162,29 @@ fun MapScreen(
     }
 
     Box(modifier = modifier.fillMaxSize()) {
-        GoogleMap(
-            modifier = Modifier.fillMaxSize(),
-            cameraPositionState = cameraPositionState,
-            properties = mapProperties,
-            uiSettings = MapUiSettings(myLocationButtonEnabled = hasLocationPermission, zoomControlsEnabled = false),
-            onMapClick = { latLng -> viewModel.onMapTapped(latLng) }
-        ) {
-            uiState.selectedPlace?.let { place ->
-                Marker(state = rememberMarkerState(position = place.latLng), title = place.nombre)
-            }
-            uiState.route?.let { route ->
-                if (route.points.isNotEmpty()) {
-                    Polyline(points = route.points, color = MaterialTheme.colorScheme.primary, width = 10f)
+        if (isMapsApiKeyPlaceholder) {
+            // Mapa interactivo de Monterrey visible y funcional sin depender de una API Key pagada
+            MonterreyMapFallback(
+                selectedPlace = uiState.selectedPlace,
+                routePoints = uiState.route?.points ?: emptyList(),
+                onMapClick = { latLng -> viewModel.onMapTapped(latLng) }
+            )
+        } else {
+            // Mapa nativo de Google Maps cuando hay una API Key válida
+            GoogleMap(
+                modifier = Modifier.fillMaxSize(),
+                cameraPositionState = cameraPositionState,
+                properties = mapProperties,
+                uiSettings = MapUiSettings(myLocationButtonEnabled = hasLocationPermission, zoomControlsEnabled = false),
+                onMapClick = { latLng -> viewModel.onMapTapped(latLng) }
+            ) {
+                uiState.selectedPlace?.let { place ->
+                    Marker(state = rememberMarkerState(position = place.latLng), title = place.nombre)
+                }
+                uiState.route?.let { route ->
+                    if (route.points.isNotEmpty()) {
+                        Polyline(points = route.points, color = MaterialTheme.colorScheme.primary, width = 12f)
+                    }
                 }
             }
         }

@@ -26,4 +26,44 @@
     <string name="switch_to_light">Cambiar a modo dia</string>
     <string name="toggle_language">Cambiar idioma</string>
     <string name="route_error">No se pudo calcular la ruta</string>
+
+    <string name="monterrey_tab">Monterrey</string>
+    <string name="monterrey_title">Lugares de Monterrey, N.L.</string>
+    <string name="monterrey_subtitle">Sitios principales e icónicos de Monterrey</string>
+    <string name="add_favorite_place">Añadir favorito</string>
+    <string name="add_to_favorites">Guardar en Favoritos</string>
+    <string name="remove_from_favorites">En Favoritos</string>
+    <string name="see_on_map">Ver en mapa</string>
+    <string name="add_custom_place_title">Añadir lugar a Favoritos</string>
+    <string name="place_name_label">Nombre del lugar</string>
+    <string name="place_address_label">Dirección</string>
+    <string name="place_desc_label">Descripción (opcional)</string>
+    <string name="place_category_label">Categoría</string>
+    <string name="place_lat_label">Latitud</string>
+    <string name="place_lng_label">Longitud</string>
+    <string name="monterrey_search_placeholder">Buscar en Monterrey...</string>
+
+    <!-- Categorías de Monterrey -->
+    <string name="cat_parque_naturaleza">Parque / Naturaleza</string>
+    <string name="cat_atraccion_turistica">Atracción Turística</string>
+    <string name="cat_plaza_publica">Plaza Pública</string>
+    <string name="cat_cultura_historia">Cultura / Historia</string>
+    <string name="cat_museo">Museo</string>
+    <string name="cat_mirador_historia">Mirador / Historia</string>
+    <string name="cat_deportes">Deportes</string>
+    <string name="cat_naturaleza_excursion">Naturaleza / Excursión</string>
+
+    <!-- Descripciones de Monterrey -->
+    <string name="mty_fundidora_desc">Parque urbano incluyente, bastión de la historia industrial con áreas verdes, museos y paseo cultural.</string>
+    <string name="mty_santa_lucia_desc">Canal navegable de 2.5 km considerado una de las 13 maravillas de México creadas por el hombre.</string>
+    <string name="mty_macroplaza_desc">Una de las plazas públicas más grandes del mundo, corazón cultural e histórico de la ciudad.</string>
+    <string name="mty_cerro_silla_desc">El ícono natural más importante y símbolo característico de la ciudad de Monterrey.</string>
+    <string name="mty_barrio_antiguo_desc">Zona histórica con arquitectura del siglo XIX, galerías, cafeterías, gastronomía y vida nocturna.</string>
+    <string name="mty_marco_desc">Museo de Arte Contemporáneo de Monterrey, reconocido internacionalmente por sus exhibiciones.</string>
+    <string name="mty_obispado_desc">Cima del Cerro del Obispado con una vista panorámica espectacular y la Bandera Monumental.</string>
+    <string name="mty_chipinque_desc">Reserva natural en la Sierra Madre Oriental ideal para senderismo, ciclismo y avistamiento de fauna.</string>
+    <string name="mty_bbva_desc">Moderno estadio de fútbol, hogar de los Rayados de Monterrey y sede para la Copa Mundial de la FIFA.</string>
+    <string name="mty_volcan_uanl_desc">Casa de los Tigres de la UANL, famoso por la pasión de su afición e histórica tradición deportiva.</string>
+    <string name="mty_grutas_garcia_desc">Formaciones subterráneas milenarias de estalagmitas y estalactitas en el municipio de García.</string>
+    <string name="mty_catedral_desc">Hermoso templo de construcción barroca novohispana con siglos de historia en el corazón de Monterrey.</string>
 </resources>

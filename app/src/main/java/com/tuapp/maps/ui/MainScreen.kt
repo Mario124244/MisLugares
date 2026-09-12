@@ -1,11 +1,11 @@
 package com.tuapp.maps.ui
 
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.DarkMode
 import androidx.compose.material.icons.filled.LightMode
+import androidx.compose.material.icons.filled.LocationCity
 import androidx.compose.material.icons.filled.Map
 import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -23,11 +23,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.core.os.LocaleListCompat
 import com.tuapp.maps.R
 import com.tuapp.maps.data.model.PlaceResult
 import com.tuapp.maps.navigation.MainTab
 import com.tuapp.maps.ui.screens.map.MapScreen
+import com.tuapp.maps.ui.screens.monterrey.MonterreyScreen
 import com.tuapp.maps.ui.screens.savedpoints.SavedPointsScreen
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -36,12 +36,16 @@ fun MainScreen(
     deepLinkPlace: PlaceResult?,
     onDeepLinkConsumed: () -> Unit,
     isDarkTheme: Boolean,
-    onToggleTheme: () -> Unit
+    onToggleTheme: () -> Unit,
+    onToggleLanguage: () -> Unit
 ) {
-    var selectedTab by remember { mutableStateOf(MainTab.MAP) }
+    var selectedTab by remember { mutableStateOf(MainTab.MONTERREY) }
+    var navigatePlaceForMap by remember { mutableStateOf<PlaceResult?>(null) }
 
     // Un deep link siempre debe abrir el mapa, aunque el usuario este en otra pestana.
     if (deepLinkPlace != null) selectedTab = MainTab.MAP
+
+    val activeMapPlace = deepLinkPlace ?: navigatePlaceForMap
 
     Scaffold(
         topBar = {
@@ -56,7 +60,7 @@ fun MainScreen(
                             )
                         )
                     }
-                    IconButton(onClick = ::toggleAppLanguage) {
+                    IconButton(onClick = onToggleLanguage) {
                         Icon(Icons.Default.Translate, contentDescription = stringResource(R.string.toggle_language))
                     }
                 }
@@ -64,6 +68,12 @@ fun MainScreen(
         },
         bottomBar = {
             NavigationBar {
+                NavigationBarItem(
+                    selected = selectedTab == MainTab.MONTERREY,
+                    onClick = { selectedTab = MainTab.MONTERREY },
+                    icon = { Icon(Icons.Default.LocationCity, contentDescription = null) },
+                    label = { Text(stringResource(R.string.monterrey_tab)) }
+                )
                 NavigationBarItem(
                     selected = selectedTab == MainTab.MAP,
                     onClick = { selectedTab = MainTab.MAP },
@@ -80,21 +90,23 @@ fun MainScreen(
         }
     ) { padding ->
         when (selectedTab) {
+            MainTab.MONTERREY -> MonterreyScreen(
+                onNavigateToMap = { place ->
+                    navigatePlaceForMap = place
+                    selectedTab = MainTab.MAP
+                },
+                modifier = Modifier.padding(padding)
+            )
             MainTab.MAP -> MapScreen(
-                deepLinkPlace = deepLinkPlace,
-                onDeepLinkConsumed = onDeepLinkConsumed,
+                deepLinkPlace = activeMapPlace,
+                onDeepLinkConsumed = {
+                    if (deepLinkPlace != null) onDeepLinkConsumed()
+                    navigatePlaceForMap = null
+                },
                 isDarkTheme = isDarkTheme,
                 modifier = Modifier.padding(padding)
             )
             MainTab.SAVED -> SavedPointsScreen(modifier = Modifier.padding(padding))
         }
     }
-}
-
-/** Alterna entre espanol e ingles usando las preferencias de idioma por app (AndroidX AppCompat). */
-private fun toggleAppLanguage() {
-    val overridden = AppCompatDelegate.getApplicationLocales().get(0)?.language
-    val current = overridden ?: java.util.Locale.getDefault().language
-    val next = if (current == "en") "es" else "en"
-    AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(next))
 }

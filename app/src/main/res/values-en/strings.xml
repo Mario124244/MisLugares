@@ -26,4 +26,44 @@
     <string name="switch_to_light">Switch to day mode</string>
     <string name="toggle_language">Switch language</string>
     <string name="route_error">Could not calculate the route</string>
+
+    <string name="monterrey_tab">Monterrey</string>
+    <string name="monterrey_title">Monterrey Places, N.L.</string>
+    <string name="monterrey_subtitle">Main and iconic places in Monterrey</string>
+    <string name="add_favorite_place">Add favorite</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_from_favorites">In Favorites</string>
+    <string name="see_on_map">View on map</string>
+    <string name="add_custom_place_title">Add place to Favorites</string>
+    <string name="place_name_label">Place name</string>
+    <string name="place_address_label">Address</string>
+    <string name="place_desc_label">Description (optional)</string>
+    <string name="place_category_label">Category</string>
+    <string name="place_lat_label">Latitude</string>
+    <string name="place_lng_label">Longitude</string>
+    <string name="monterrey_search_placeholder">Search in Monterrey...</string>
+
+    <!-- Monterrey Categories -->
+    <string name="cat_parque_naturaleza">Park / Nature</string>
+    <string name="cat_atraccion_turistica">Tourist Attraction</string>
+    <string name="cat_plaza_publica">Public Square</string>
+    <string name="cat_cultura_historia">Culture / History</string>
+    <string name="cat_museo">Museum</string>
+    <string name="cat_mirador_historia">Lookout / History</string>
+    <string name="cat_deportes">Sports</string>
+    <string name="cat_naturaleza_excursion">Nature / Excursion</string>
+
+    <!-- Monterrey Descriptions -->
+    <string name="mty_fundidora_desc">Inclusive urban park, bastion of industrial history with green areas, museums, and cultural walk.</string>
+    <string name="mty_santa_lucia_desc">A 2.5 km navigable canal considered one of the 13 man-made wonders of Mexico.</string>
+    <string name="mty_macroplaza_desc">One of the largest public squares in the world, the cultural and historic heart of the city.</string>
+    <string name="mty_cerro_silla_desc">The most important natural icon and characteristic symbol of the city of Monterrey.</string>
+    <string name="mty_barrio_antiguo_desc">Historic area with 19th-century architecture, art galleries, coffee shops, dining, and nightlife.</string>
+    <string name="mty_marco_desc">Contemporary Art Museum of Monterrey, internationally recognized for its exhibitions.</string>
+    <string name="mty_obispado_desc">Summit of Obispado Hill featuring a spectacular panoramic view and the Monumental Flag.</string>
+    <string name="mty_chipinque_desc">Natural reserve in the Sierra Madre Oriental ideal for hiking, cycling, and wildlife watching.</string>
+    <string name="mty_bbva_desc">Modern soccer stadium, home of Rayados de Monterrey and venue for the FIFA World Cup.</string>
+    <string name="mty_volcan_uanl_desc">Home of Tigres UANL, famous for the passion of its fans and rich sports tradition.</string>
+    <string name="mty_grutas_garcia_desc">Millenary underground formations of stalagmites and stalactites in the municipality of García.</string>
+    <string name="mty_catedral_desc">Beautiful Novohispanic Baroque cathedral with centuries of history in the heart of Monterrey.</string>
 </resources>

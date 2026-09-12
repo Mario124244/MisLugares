@@ -1,0 +1,631 @@
+-- Merging decision tree log ---
+meta-data#com.google.android.geo.API_KEY
+INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:19:9-21:47
+	android:value
+		INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:21:13-44
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:20:13-58
+manifest
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:2:1-67:12
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/08b850481a47cfc368d2742826ca5363/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2376a76a56d160930994dbf387792c35/transformed/appcompat-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.maps.android:maps-compose:4.4.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/ad533f3b6f01f9b47932a879bfa95fbd/transformed/maps-compose-4.4.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85738d6cfcd38d4f447734336eef963c/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/8c9a1533f2492418dd7475ca5f0a7cdd/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7a2b68ab04b0b0a16ed6e83756944544/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:maps-ktx:5.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/258f2afd2adeed4766965ccff4d91ba7/transformed/maps-ktx-5.0.0/AndroidManifest.xml:18:1-23:12
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2a3f5ac446f8db6ab3c233c0cf32a2ab/transformed/play-services-location-21.3.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9eaeed2a700b5412613ce491e69ff273/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/871ea27d4bee76fd2d58d604fae73c69/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/98b3ea3a04ad056750aa07498a490a42/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f9fd25c80e0540702d6ae78a5d961aba/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/4e8912e81df2316e945599c4b24b677f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/d8fb483de7b0bead44893bf6efb43551/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5b58b7783005ee051493741308f5f5d6/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/b4d7ade1984190702ff705b736189dab/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0ee2a500fa30147dce08a07e1f0f7922/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e44171243b3f8b1940d2be5e5ba9601a/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/a34d0fb7706832e832bacfc53d4d834b/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6b909d3415e79c69128983e11d3f0025/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5ce98e20b2b6ee2a93f283072e6d5922/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0b6ce4c648836ef96cdf88a0ec67bc24/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/4baf8c447a1940ab6edd9414a36bd929/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/113f3929d1ccd177f90c31ea8a3009d3/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/a585ca8105877772cfd0de7d24dc1099/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e2db6dee0c252ed0f06e190d38afbffa/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85efb8cdb2d5ba8e235a11ec232853c6/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/28b426be20963918bcfae54253424e55/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9ea7d73ec8113be4ec41ec8889d6db9b/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/98db9f123a3203747bc214513a35ab63/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/50cae56add977018444525a89cd0b908/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f7c3973de415b4f22d87976714f214d6/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/33665b16c85084795bab9c03b274923b/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e565185ee8ea0e0d8622f1f1ac0d1104/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/07afeb85c944a33643c0e6e4905d1415/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/b6baea2c3ad790f722d8dd190716d824/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/c3f702794bae26db35d211322aa6fcb1/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/01e296da71f3bf40a0358d84c225250b/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/13d4a85a9169a3dffdcd07e3a8bfbb02/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/09764b229530c94db136276ba7bd8a04/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/ca13509c45e8b91f6c58d1ca04f23ab6/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7bf5d7889bbcb71682cf145dfe08f0cb/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/c22f651e6af78506bd64d7b8443ed4b9/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7c4e72255e21f635ccf1dd7ed163bf11/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7ff475434505bc79ed296dbd3cf55246/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6c8aa31fe91014e8d96030e72a97df61/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/b99cec0cd9507a861e25e24409f5a49a/transformed/activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/56bb06a4fe0a0b8e676f626c0a2dd4f4/transformed/activity-compose-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/57f2ac5a0d4a933647d754b4cef129a1/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f8169d0b93bb581880a3fb0979ce7d19/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/de22f077bc3c89426bde8e11c115f427/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/a5567777faa6d3f9536a4515c74823a9/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd91670b82e83c0152fad53346b33e8c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1cfd699c179bc45737338e05d964f082/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5808dae57f6070f6e4c942f1438645a4/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7f8d9e1683f7113849f37cb2a9a3182a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1398354a93579ee0581f2bfe6541f5a6/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/658dab6b200850147ea94c4e3c0559de/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5e2795e3473bb2518d4e411b4d29e5c7/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/8f5e3cbde1aeaab7a26c65b8ac664e54/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/8a157d4e6be8a27b5066af5019489694/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9a239655d19639a56d45845b9458e421/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/196b05f13d40afe6ec8b2550d16223f7/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e9c90358e1749ac1f77dd92437effb29/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7d3db08e91cfb5c5708c405571f8cdda/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2546c53011d6ebc57edbb445ffd5a2c4/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/644b569372b52bfe595ec484b32ee689/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/71ffbbfd4b330287a53efa562dcb4702/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85fd7897ffcda5f0ed07e9f6a779c32e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:15:1-35:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e2cd6cc0f723dc11b10af75fdf004c95/transformed/transport-api-3.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dcc2bec987150e36a464c95ec9c971dc/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f378aa6983f9dd82feffb0e143435cbd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1771e349d9ff85dee6fdf57c00a0d628/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1f9902d6379a51311da8f1455625ea50/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/cf4a6c84db0e20aa4b06f14ca6cfc926/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7d038426e66cd37e624aedc399abd8ee/transformed/viewbinding-7.4.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/d83a5d6d860be2fedd4ed1d4b77a301b/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/aceec60008cca75459e9413d55298989/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0201c48c4957f643a22e76ce432b6e3e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/4b960c09ae6cbb2de4c420be846d4faa/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/34dabe41d25b5c4438b1c6669b7ed45a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.volley:volley:1.2.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1b45a3baff8e55071b564eecbe59f584/transformed/volley-1.2.1/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:7:5-81
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:9:5-81
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:9:5-65:19
+INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:9:5-65:19
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2a3f5ac446f8db6ab3c233c0cf32a2ab/transformed/play-services-location-21.3.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2a3f5ac446f8db6ab3c233c0cf32a2ab/transformed/play-services-location-21.3.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9eaeed2a700b5412613ce491e69ff273/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9eaeed2a700b5412613ce491e69ff273/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85efb8cdb2d5ba8e235a11ec232853c6/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85efb8cdb2d5ba8e235a11ec232853c6/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/c22f651e6af78506bd64d7b8443ed4b9/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/c22f651e6af78506bd64d7b8443ed4b9/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7c4e72255e21f635ccf1dd7ed163bf11/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7c4e72255e21f635ccf1dd7ed163bf11/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:23:5-37:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:23:5-37:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1771e349d9ff85dee6fdf57c00a0d628/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1771e349d9ff85dee6fdf57c00a0d628/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1f9902d6379a51311da8f1455625ea50/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1f9902d6379a51311da8f1455625ea50/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml
+	android:localeConfig
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:16:9-51
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:15:9-47
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:10:9-40
+service#androidx.appcompat.app.AppLocalesMetadataHolderService
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:25:9-32:19
+	android:enabled
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:27:13-36
+	android:exported
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:26:13-82
+meta-data#autoStoreLocale
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:29:13-31:40
+	android:value
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:31:17-37
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:30:17-47
+activity#com.tuapp.maps.MainActivity
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:34:9-64:20
+	android:launchMode
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:37:13-44
+	android:exported
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:36:13-36
+	android:theme
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:38:13-51
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:35:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:41:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:geopuntos.example.com+data:pathPrefix:/punto+data:scheme:https
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:45:13-53:29
+	android:autoVerify
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:45:28-53
+action#android.intent.action.VIEW
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:46:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:47:17-76
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:47:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:48:17-78
+	android:name
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:48:27-75
+data
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:49:17-52:51
+	android:host
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:51:21-57
+	android:scheme
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:50:21-43
+	android:pathPrefix
+		ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:52:21-48
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:punto+data:scheme:geopuntos
+ADDED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml:56:13-63:29
+uses-sdk
+INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml
+INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:7:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/08b850481a47cfc368d2742826ca5363/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/08b850481a47cfc368d2742826ca5363/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2376a76a56d160930994dbf387792c35/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2376a76a56d160930994dbf387792c35/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:maps-compose:4.4.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/ad533f3b6f01f9b47932a879bfa95fbd/transformed/maps-compose-4.4.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:maps-compose:4.4.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/ad533f3b6f01f9b47932a879bfa95fbd/transformed/maps-compose-4.4.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85738d6cfcd38d4f447734336eef963c/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85738d6cfcd38d4f447734336eef963c/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/8c9a1533f2492418dd7475ca5f0a7cdd/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/8c9a1533f2492418dd7475ca5f0a7cdd/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7a2b68ab04b0b0a16ed6e83756944544/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7a2b68ab04b0b0a16ed6e83756944544/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:maps-ktx:5.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/258f2afd2adeed4766965ccff4d91ba7/transformed/maps-ktx-5.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.maps.android:maps-ktx:5.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/258f2afd2adeed4766965ccff4d91ba7/transformed/maps-ktx-5.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2a3f5ac446f8db6ab3c233c0cf32a2ab/transformed/play-services-location-21.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2a3f5ac446f8db6ab3c233c0cf32a2ab/transformed/play-services-location-21.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9eaeed2a700b5412613ce491e69ff273/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9eaeed2a700b5412613ce491e69ff273/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/871ea27d4bee76fd2d58d604fae73c69/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/871ea27d4bee76fd2d58d604fae73c69/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/98b3ea3a04ad056750aa07498a490a42/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/98b3ea3a04ad056750aa07498a490a42/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f9fd25c80e0540702d6ae78a5d961aba/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f9fd25c80e0540702d6ae78a5d961aba/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/4e8912e81df2316e945599c4b24b677f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/4e8912e81df2316e945599c4b24b677f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/d8fb483de7b0bead44893bf6efb43551/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/d8fb483de7b0bead44893bf6efb43551/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5b58b7783005ee051493741308f5f5d6/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5b58b7783005ee051493741308f5f5d6/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/b4d7ade1984190702ff705b736189dab/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/b4d7ade1984190702ff705b736189dab/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0ee2a500fa30147dce08a07e1f0f7922/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0ee2a500fa30147dce08a07e1f0f7922/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e44171243b3f8b1940d2be5e5ba9601a/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e44171243b3f8b1940d2be5e5ba9601a/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/a34d0fb7706832e832bacfc53d4d834b/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/a34d0fb7706832e832bacfc53d4d834b/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6b909d3415e79c69128983e11d3f0025/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6b909d3415e79c69128983e11d3f0025/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5ce98e20b2b6ee2a93f283072e6d5922/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5ce98e20b2b6ee2a93f283072e6d5922/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0b6ce4c648836ef96cdf88a0ec67bc24/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0b6ce4c648836ef96cdf88a0ec67bc24/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/4baf8c447a1940ab6edd9414a36bd929/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/4baf8c447a1940ab6edd9414a36bd929/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/113f3929d1ccd177f90c31ea8a3009d3/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/113f3929d1ccd177f90c31ea8a3009d3/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/a585ca8105877772cfd0de7d24dc1099/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/a585ca8105877772cfd0de7d24dc1099/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e2db6dee0c252ed0f06e190d38afbffa/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e2db6dee0c252ed0f06e190d38afbffa/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85efb8cdb2d5ba8e235a11ec232853c6/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85efb8cdb2d5ba8e235a11ec232853c6/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/28b426be20963918bcfae54253424e55/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/28b426be20963918bcfae54253424e55/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9ea7d73ec8113be4ec41ec8889d6db9b/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9ea7d73ec8113be4ec41ec8889d6db9b/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/98db9f123a3203747bc214513a35ab63/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/98db9f123a3203747bc214513a35ab63/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/50cae56add977018444525a89cd0b908/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/50cae56add977018444525a89cd0b908/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f7c3973de415b4f22d87976714f214d6/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f7c3973de415b4f22d87976714f214d6/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/33665b16c85084795bab9c03b274923b/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/33665b16c85084795bab9c03b274923b/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e565185ee8ea0e0d8622f1f1ac0d1104/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e565185ee8ea0e0d8622f1f1ac0d1104/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/07afeb85c944a33643c0e6e4905d1415/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/07afeb85c944a33643c0e6e4905d1415/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/b6baea2c3ad790f722d8dd190716d824/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/b6baea2c3ad790f722d8dd190716d824/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/c3f702794bae26db35d211322aa6fcb1/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/c3f702794bae26db35d211322aa6fcb1/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/01e296da71f3bf40a0358d84c225250b/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/01e296da71f3bf40a0358d84c225250b/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/13d4a85a9169a3dffdcd07e3a8bfbb02/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/13d4a85a9169a3dffdcd07e3a8bfbb02/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/09764b229530c94db136276ba7bd8a04/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/09764b229530c94db136276ba7bd8a04/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/ca13509c45e8b91f6c58d1ca04f23ab6/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/ca13509c45e8b91f6c58d1ca04f23ab6/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7bf5d7889bbcb71682cf145dfe08f0cb/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7bf5d7889bbcb71682cf145dfe08f0cb/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/c22f651e6af78506bd64d7b8443ed4b9/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/c22f651e6af78506bd64d7b8443ed4b9/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7c4e72255e21f635ccf1dd7ed163bf11/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7c4e72255e21f635ccf1dd7ed163bf11/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7ff475434505bc79ed296dbd3cf55246/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7ff475434505bc79ed296dbd3cf55246/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6c8aa31fe91014e8d96030e72a97df61/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6c8aa31fe91014e8d96030e72a97df61/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/b99cec0cd9507a861e25e24409f5a49a/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/b99cec0cd9507a861e25e24409f5a49a/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/56bb06a4fe0a0b8e676f626c0a2dd4f4/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/56bb06a4fe0a0b8e676f626c0a2dd4f4/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/57f2ac5a0d4a933647d754b4cef129a1/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/57f2ac5a0d4a933647d754b4cef129a1/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f8169d0b93bb581880a3fb0979ce7d19/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f8169d0b93bb581880a3fb0979ce7d19/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/de22f077bc3c89426bde8e11c115f427/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/de22f077bc3c89426bde8e11c115f427/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/a5567777faa6d3f9536a4515c74823a9/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/a5567777faa6d3f9536a4515c74823a9/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd91670b82e83c0152fad53346b33e8c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd91670b82e83c0152fad53346b33e8c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1cfd699c179bc45737338e05d964f082/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1cfd699c179bc45737338e05d964f082/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5808dae57f6070f6e4c942f1438645a4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5808dae57f6070f6e4c942f1438645a4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7f8d9e1683f7113849f37cb2a9a3182a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7f8d9e1683f7113849f37cb2a9a3182a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1398354a93579ee0581f2bfe6541f5a6/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1398354a93579ee0581f2bfe6541f5a6/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/658dab6b200850147ea94c4e3c0559de/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/658dab6b200850147ea94c4e3c0559de/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5e2795e3473bb2518d4e411b4d29e5c7/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/5e2795e3473bb2518d4e411b4d29e5c7/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/8f5e3cbde1aeaab7a26c65b8ac664e54/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/8f5e3cbde1aeaab7a26c65b8ac664e54/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/8a157d4e6be8a27b5066af5019489694/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/8a157d4e6be8a27b5066af5019489694/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9a239655d19639a56d45845b9458e421/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9a239655d19639a56d45845b9458e421/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/196b05f13d40afe6ec8b2550d16223f7/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/196b05f13d40afe6ec8b2550d16223f7/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e9c90358e1749ac1f77dd92437effb29/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e9c90358e1749ac1f77dd92437effb29/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7d3db08e91cfb5c5708c405571f8cdda/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7d3db08e91cfb5c5708c405571f8cdda/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2546c53011d6ebc57edbb445ffd5a2c4/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/2546c53011d6ebc57edbb445ffd5a2c4/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/644b569372b52bfe595ec484b32ee689/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/644b569372b52bfe595ec484b32ee689/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/71ffbbfd4b330287a53efa562dcb4702/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/71ffbbfd4b330287a53efa562dcb4702/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85fd7897ffcda5f0ed07e9f6a779c32e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85fd7897ffcda5f0ed07e9f6a779c32e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e2cd6cc0f723dc11b10af75fdf004c95/transformed/transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/e2cd6cc0f723dc11b10af75fdf004c95/transformed/transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dcc2bec987150e36a464c95ec9c971dc/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dcc2bec987150e36a464c95ec9c971dc/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f378aa6983f9dd82feffb0e143435cbd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f378aa6983f9dd82feffb0e143435cbd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1771e349d9ff85dee6fdf57c00a0d628/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1771e349d9ff85dee6fdf57c00a0d628/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1f9902d6379a51311da8f1455625ea50/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1f9902d6379a51311da8f1455625ea50/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/cf4a6c84db0e20aa4b06f14ca6cfc926/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/cf4a6c84db0e20aa4b06f14ca6cfc926/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7d038426e66cd37e624aedc399abd8ee/transformed/viewbinding-7.4.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7d038426e66cd37e624aedc399abd8ee/transformed/viewbinding-7.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/d83a5d6d860be2fedd4ed1d4b77a301b/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/d83a5d6d860be2fedd4ed1d4b77a301b/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/aceec60008cca75459e9413d55298989/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/aceec60008cca75459e9413d55298989/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0201c48c4957f643a22e76ce432b6e3e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0201c48c4957f643a22e76ce432b6e3e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/4b960c09ae6cbb2de4c420be846d4faa/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/4b960c09ae6cbb2de4c420be846d4faa/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/34dabe41d25b5c4438b1c6669b7ed45a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/34dabe41d25b5c4438b1c6669b7ed45a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.android.volley:volley:1.2.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1b45a3baff8e55071b564eecbe59f584/transformed/volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1b45a3baff8e55071b564eecbe59f584/transformed/volley-1.2.1/AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/daviddelossantos/StudioProjects/MisLugares/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:11:22-73
+activity#com.google.android.libraries.places.widget.AutocompleteActivity
+ADDED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:15:9-21:20
+	android:label
+		ADDED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:18:13-62
+	android:windowSoftInputMode
+		ADDED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:20:13-55
+	android:exported
+		ADDED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:17:13-37
+	android:theme
+		ADDED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:19:13-61
+	android:name
+		ADDED from [com.google.android.libraries.places:places:3.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/0e7fe1205acac15041c6e8ba861d9440/transformed/places-3.4.0/AndroidManifest.xml:16:13-91
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/f271ff0d63ee4cf985e2d7af10df30cd/transformed/play-services-maps-19.0.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9eaeed2a700b5412613ce491e69ff273/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9eaeed2a700b5412613ce491e69ff273/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9eaeed2a700b5412613ce491e69ff273/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/9eaeed2a700b5412613ce491e69ff273/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/6a8d99c9c4f1e9c3dea20ea6e378d2fd/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85efb8cdb2d5ba8e235a11ec232853c6/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85efb8cdb2d5ba8e235a11ec232853c6/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/85efb8cdb2d5ba8e235a11ec232853c6/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1f9902d6379a51311da8f1455625ea50/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/1f9902d6379a51311da8f1455625ea50/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/daviddelossantos/.gradle/caches/8.9/transforms/59d6793530540dbf63efdb3ecf659671/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7c4e72255e21f635ccf1dd7ed163bf11/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7c4e72255e21f635ccf1dd7ed163bf11/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/7c4e72255e21f635ccf1dd7ed163bf11/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/be67dd832882137851d4bac6e98b61a5/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.tuapp.maps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.tuapp.maps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/af19c7e1dff59c494b00b46e212ebbae/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daviddelossantos/.gradle/caches/8.9/transforms/dd8fcee0639cf7317f0856b81b89a69c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:34:9-36:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:27:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:29:13-31:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:31:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/615e7a69e85a8619be9e9348bcd02913/transformed/transport-backend-cct-3.2.0/AndroidManifest.xml:30:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:24:9-28:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:26:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:27:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:25:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] /Users/daviddelossantos/.gradle/caches/8.9/transforms/97a2067fea0d647e26fbea46123a7263/transformed/transport-runtime-3.2.0/AndroidManifest.xml:31:13-132

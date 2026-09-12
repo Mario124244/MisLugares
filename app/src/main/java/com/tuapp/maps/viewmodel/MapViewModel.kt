@@ -99,11 +99,8 @@ class MapViewModel(application: Application) : AndroidViewModel(application) {
 
     fun requestRoute() {
         val destination = _uiState.value.selectedPlace ?: return
-        val origin = _uiState.value.userLocation
-        if (origin == null) {
-            _uiState.value = _uiState.value.copy(routeError = true)
-            return
-        }
+        // Usar la ubicación del usuario o fallback a Monterrey Centro (Macroplaza) si el GPS aún no está disponible
+        val origin = _uiState.value.userLocation ?: LatLng(25.6689, -100.3097)
         _uiState.value = _uiState.value.copy(isRouteLoading = true, routeError = false)
         viewModelScope.launch {
             val result = directionsRepository.getRoute(origin, destination.latLng)
