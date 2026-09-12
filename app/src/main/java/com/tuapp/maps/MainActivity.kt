@@ -2,7 +2,6 @@ package com.tuapp.maps
 
 import android.app.LocaleManager
 import android.content.Intent
-import android.content.res.Configuration
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -18,14 +17,16 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.google.android.gms.maps.model.LatLng
 import com.tuapp.maps.data.local.AppPreferences
 import com.tuapp.maps.data.model.PlaceResult
+import com.tuapp.maps.data.model.ThemeMode
 import com.tuapp.maps.ui.MainScreen
 import com.tuapp.maps.ui.theme.GeoPuntosTheme
+import com.tuapp.maps.ui.theme.rememberIsDarkTheme
 import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
 
     private var deepLinkPlace by mutableStateOf<PlaceResult?>(null)
-    private var isDarkTheme by mutableStateOf(false)
+    private var themeMode by mutableStateOf(ThemeMode.AUTO)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         try {
@@ -47,19 +48,21 @@ class MainActivity : AppCompatActivity() {
 
         deepLinkPlace = extractSharedPlace(intent)
 
-        val systemIsDark =
-            (resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES
-        isDarkTheme = AppPreferences.isDarkMode(this, defaultValue = systemIsDark)
+        themeMode = AppPreferences.getThemeMode(this)
 
         setContent {
+            // En modo automatico esto sigue el amanecer y el ocaso de Monterrey y cambia solo.
+            val isDarkTheme = rememberIsDarkTheme(themeMode)
+
             GeoPuntosTheme(darkTheme = isDarkTheme) {
                 MainScreen(
                     deepLinkPlace = deepLinkPlace,
                     onDeepLinkConsumed = { deepLinkPlace = null },
                     isDarkTheme = isDarkTheme,
-                    onToggleTheme = {
-                        isDarkTheme = !isDarkTheme
-                        AppPreferences.setDarkMode(this, isDarkTheme)
+                    themeMode = themeMode,
+                    onCycleThemeMode = {
+                        themeMode = themeMode.next()
+                        AppPreferences.setThemeMode(this, themeMode)
                     },
                     onToggleLanguage = { toggleLanguage() }
                 )

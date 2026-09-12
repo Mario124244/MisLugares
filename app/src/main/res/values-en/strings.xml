@@ -24,6 +24,7 @@
     <string name="no_saved_points">You have no saved places yet</string>
     <string name="switch_to_dark">Switch to night mode</string>
     <string name="switch_to_light">Switch to day mode</string>
+    <string name="switch_to_auto">Switch to automatic theme</string>
     <string name="toggle_language">Switch language</string>
     <string name="route_error">Could not calculate the route</string>
 

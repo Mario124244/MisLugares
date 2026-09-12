@@ -3,6 +3,7 @@ package com.tuapp.maps.ui
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bookmark
+import androidx.compose.material.icons.filled.BrightnessAuto
 import androidx.compose.material.icons.filled.DarkMode
 import androidx.compose.material.icons.filled.LightMode
 import androidx.compose.material.icons.filled.LocationCity
@@ -25,6 +26,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.tuapp.maps.R
 import com.tuapp.maps.data.model.PlaceResult
+import com.tuapp.maps.data.model.ThemeMode
 import com.tuapp.maps.navigation.MainTab
 import com.tuapp.maps.ui.screens.map.MapScreen
 import com.tuapp.maps.ui.screens.monterrey.MonterreyScreen
@@ -36,7 +38,8 @@ fun MainScreen(
     deepLinkPlace: PlaceResult?,
     onDeepLinkConsumed: () -> Unit,
     isDarkTheme: Boolean,
-    onToggleTheme: () -> Unit,
+    themeMode: ThemeMode,
+    onCycleThemeMode: () -> Unit,
     onToggleLanguage: () -> Unit
 ) {
     var selectedTab by remember { mutableStateOf(MainTab.MONTERREY) }
@@ -52,11 +55,20 @@ fun MainScreen(
             TopAppBar(
                 title = { Text(stringResource(R.string.app_name)) },
                 actions = {
-                    IconButton(onClick = onToggleTheme) {
+                    IconButton(onClick = onCycleThemeMode) {
+                        // El icono muestra el modo activo; la descripcion anuncia a cual se cambia al tocar.
                         Icon(
-                            imageVector = if (isDarkTheme) Icons.Default.LightMode else Icons.Default.DarkMode,
+                            imageVector = when (themeMode) {
+                                ThemeMode.AUTO -> Icons.Default.BrightnessAuto
+                                ThemeMode.LIGHT -> Icons.Default.LightMode
+                                ThemeMode.DARK -> Icons.Default.DarkMode
+                            },
                             contentDescription = stringResource(
-                                if (isDarkTheme) R.string.switch_to_light else R.string.switch_to_dark
+                                when (themeMode.next()) {
+                                    ThemeMode.AUTO -> R.string.switch_to_auto
+                                    ThemeMode.LIGHT -> R.string.switch_to_light
+                                    ThemeMode.DARK -> R.string.switch_to_dark
+                                }
                             )
                         )
                     }
