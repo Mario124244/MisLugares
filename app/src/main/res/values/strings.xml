@@ -24,6 +24,7 @@
     <string name="no_saved_points">Aun no tienes puntos guardados</string>
     <string name="switch_to_dark">Cambiar a modo noche</string>
     <string name="switch_to_light">Cambiar a modo dia</string>
+    <string name="switch_to_auto">Cambiar a tema automatico</string>
     <string name="toggle_language">Cambiar idioma</string>
     <string name="route_error">No se pudo calcular la ruta</string>
 
